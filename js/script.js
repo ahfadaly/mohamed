@@ -34,14 +34,18 @@ $(`document`).ready(() => {
 
   // goods-carousel ---------------
   $(".goods-carousel .owl-carousel").owlCarousel({
-    items: 4,
+    stagePadding: 25,
     loop: true,
     margin: 15,
     autoplay: true,
-    autoplayTimeout: 1000,
+    loop: true,
+    margin: 15,
+    autoplay: true,
+    autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsive: {
       0: {
+        stagePadding: 40,
         items: 1,
       },
       769: {
