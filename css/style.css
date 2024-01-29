@@ -233,13 +233,20 @@ body {
   font-weight: 500;
   line-height: 28px;
 }
-.categories .box-img img {
-  width: 100%;
+.categories .bg-item {
+  background-color: #fff;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+.categories .box-img img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 .categories .box-img .overlay {
   position: absolute;
@@ -277,7 +284,7 @@ body {
 .categories .box-img .chevron {
   position: absolute;
   bottom: 0;
-  padding: 18px 25px;
+  padding: 10px 17px;
   background-color: var(--main-color);
   border-radius: 20px;
   -webkit-border-radius: 20px;
